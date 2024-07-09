@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #C738BD, #F8F9D7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #F8F9D7;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: #850F8D;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    /* background:linear-gradient(30deg, #E49BFF, #F8F9D7); */
+    background:linear-gradient(30deg, #667BC6, #FDFFD2);
+    color:#667BC6 ;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #F8F9D7;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+}
+button{
+    background: #667BC6;
+    color: #FDFFD2;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+/* add icon to the button and style it here */
+
+select{
+    flex: 1;
+    color: #FDFFD2;
+    background:#667BC6;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 35px;
+    appearance: none;
+    /* space fro dropdown icon add backgroung-repeat: no-repeat, sixe, position,.... */
+}
+select::after{
+    color: black;
+    float: right;
+}
